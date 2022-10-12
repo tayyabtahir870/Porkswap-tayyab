@@ -1,0 +1,58 @@
+.navfontcolor{
+  color: white;
+}
+.footerbackgroudcolor{
+  background-color: #12436B;
+  color: white;
+}
+
+.font1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.font2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.card1{
+  border-radius: 40px;
+border-color: black;
+}
+
+.backpic{
+  background-image: url('https://porkswap.finance/assets/images/bg.png');
+}
+
+.color{
+  color: white;
+}
+
+.header{
+  background-color: transparent;
+  background-image: url('https://porkswap.finance/assets/images/bg.png');
+}
+.fontcolor{
+  color: #FC5B50;
+}
+
+.intbackpic{
+  background-image: url('https://porkswap.finance/assets/images/bgs/bg-1.png');
+}
+
+.font3{
+  font-size: 1.5rem;
+  color: black;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+}
+.bacpic{
+  background-color: #F3F7FA;
+}
+.picy{
+  background-image: url('https://porkswap.finance/assets/images/bgs/bg.png');
+}
