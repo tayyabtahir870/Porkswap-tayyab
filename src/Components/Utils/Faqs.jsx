@@ -5,11 +5,11 @@ import Faq from "react-faq-component";
 const data = {
     
 
-    title: <b> FAQs </b>,
+    title: <b > FAQs </b>,
     rows: [
        
         {
-            title:  <b> What is PorkSwap?</b>,
+            title:  <b > What is PorkSwap?</b>,
             content: `PorkSwap is a decentralized platform for spot and futures trading. You can trade any BEP-20 tokens on Binance Smart Chain. It eliminates trusted intermediaries and unnecessary forms of rent extraction, allowing for fast, efficient trading. Porkswap will be open-source under GPL license.`,
         },
         {
@@ -130,7 +130,7 @@ const data = {
 
 
 const styles = {
-    bgColor: 'white',
+    bgColor: 'transparenet',
     titleTextColor: "black",
     rowTitleColor: "black",
     rowContentColor: 'black',
@@ -146,14 +146,15 @@ const config = {
 
 function Faqs() {
   return (
-    
-    <div className='container'>
+    <div className='backpic-table '>
+    <div className='container '>
      <Faq
                 data={data}
                 styles={styles}
                 config={config}
             />
 
+    </div>
     </div>
 
   )

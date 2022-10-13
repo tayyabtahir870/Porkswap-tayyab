@@ -3,9 +3,9 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <div className="header ">
-        <nav class="navbar navbar-expand-lg  fixed-top header">
-          <div class="container">
+      <div className="header  ">
+        <nav class="navbar navbar-expand-lg  fixed-top backpic ">
+          <div class="container my-3">
             <a class="navbar-brand" href="/">
               <img
                 src="https://porkswap.finance/assets/images/logo.png"

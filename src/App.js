@@ -9,6 +9,9 @@ import Seen from './Components/Elements/Seen';
 import Interface from './Components/Elements/Interface';
 import Utilities from './Components/Elements/Utilities';
 import Youtube from './Components/Elements/Youtube';
+import Comparison from './Components/Elements/Comparison';
+import Roadmap from './Components/Elements/Roadmap';
+import Token from './Components/Elements/Token';
 
 
 
@@ -20,8 +23,11 @@ function App() {
       <Decentralized/>
       <Seen/>
       <Youtube/>
+      <Token/>
       <Interface/>
       <Utilities/>
+      <Comparison/>
+      <Roadmap/>
       <Faqs/>
       <Footer/>
 

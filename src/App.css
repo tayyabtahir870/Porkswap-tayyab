@@ -24,6 +24,7 @@ border-color: black;
 
 .backpic{
   background-image: url('https://porkswap.finance/assets/images/bg.png');
+  ;
 }
 
 .color{
@@ -50,9 +51,71 @@ border-color: black;
   display: flex;
   flex-direction: column;
 }
-.bacpic{
+.acpic{
   background-color: #F3F7FA;
 }
 .picy{
   background-image: url('https://porkswap.finance/assets/images/bgs/bg.png');
 }
+
+.backpic-table{
+  background-image: url('https://porkswap.finance/assets/images/bgs/bg.png');
+}
+.roadmap-backpic{
+  background-image: url('https://porkswap.finance/assets/images/bgs/Frame-13-3.png');
+}
+.token-pic{
+  background-image: url('https://porkswap.finance/assets/images/bgs/token-base.png');
+ 
+ 
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  max-width: 80.125rem;
+  background-position: 60%;
+  
+  height: 25.75rem;
+}
+/* .token-pic::before{
+ 
+  content: "";
+  background-image: url('https://porkswap.finance/assets/images/bgs/token-hover.png');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  max-width: 80.125rem;
+  background-position: 60%;
+  height: 100%;
+  width: 100%;
+} */
+
+.liqidity{
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 10rem;
+}
+
+.growth{
+
+  position: absolute;
+  left: 0;
+  top: 165px;
+  width: 5rem;
+}
+
+.locked{
+  position: absolute;
+  right: 0%;
+  top: 70px;
+  width: 12rem;
+}
+
+.sale{
+  position: absolute;
+  right: 0%;
+  top: 185px;
+  width: 6rem;
+}
+
+
