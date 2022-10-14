@@ -74,6 +74,18 @@
 
   height: 25.75rem;
 }
+.token-pic::before{
+  content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://porkswap.finance/assets/images/bgs/token-hover.png');
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    left: 0;
+}
 
 .liqidity {
   position: absolute;
@@ -110,3 +122,15 @@
   border-radius: 3px;
   background: #fff;
 }
+
+.token1 {
+  /* display: block; */
+  /* other properties */
+}
+
+@media  screen and (max-width: 600px) {
+  .token1 {
+    display: none;
+  }
+}
+

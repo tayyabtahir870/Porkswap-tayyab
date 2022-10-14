@@ -21,7 +21,7 @@ function Token() {
 
           <div class="col-md-6 m-auto my-4 pb-5">
             <div className="token-pic ">
-         <div>
+         <div className="token1">
          <div className="text-center">
                   <h4>50%</h4>
                   <span><b> Liquidity Rewards <br /> (Locked) </b></span>

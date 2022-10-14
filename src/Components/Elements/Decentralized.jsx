@@ -84,7 +84,7 @@ function Decentralized() {
             },
             move: {
               enable: true,
-              speed: 2,
+              speed: 5,
               direction: "none",
               random: false,
               straight: false,
@@ -167,6 +167,8 @@ function Decentralized() {
               Trade on PCS
             </button>{" "}
             &nbsp;
+            <br />
+            <br />
             <button type="button" class="btn btn-danger">
               Governance
             </button>
@@ -177,7 +179,7 @@ function Decentralized() {
               className="img-fluid"
               src="Assests/pic1.png"
               alt=""
-              width={500}
+              
             />
           </div>
         </div>

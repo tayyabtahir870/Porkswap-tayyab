@@ -204,8 +204,8 @@ const config = {
 
 function Faqs() {
   return (
-    <div className="backpic-table ">
-      <div className="container spotbox ">
+    <div className="backpic-table  p-5">
+      <div className="container spotbox  ">
         <Faq data={data} styles={styles} config={config} />
       </div>
     </div>

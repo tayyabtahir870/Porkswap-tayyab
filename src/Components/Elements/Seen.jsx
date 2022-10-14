@@ -2,31 +2,31 @@ import React from "react";
 
 function Seen() {
   return (
-    <div className="backpicseen">
-      <div className="font2">
+    <div className="backpicseen ">
+      <div className="font2 ">
         <b>As seen on</b>
       </div>
       <div className="text-center my-5">
         <img
-          className="img-fluid"
+         
           src="https://porkswap.finance/assets/images/featured/02246f50-3412-11eb-bfdd-de89f8b3b8b8.png"
           alt=""
           width={150}
         />{" "}
         &nbsp; &nbsp; &nbsp; &nbsp;
-        <img
+        <img 
           src="https://porkswap.finance/assets/images/featured/logo-bloomberg.svg"
           alt=""
           width={150}
         />{" "}
         &nbsp; &nbsp; &nbsp; &nbsp;
-        <img
+        <img 
           src="https://porkswap.finance/assets/images/featured/logo-benzinga.webp"
           alt=""
           width={150}
         />{" "}
         &nbsp; &nbsp; &nbsp; &nbsp;
-        <img
+        <img 
           src="https://porkswap.finance/assets/images/featured/news-btc.png"
           alt=""
           width={150}
@@ -35,10 +35,10 @@ function Seen() {
       </div>
       <hr />
       <div>
-        <div class="container text-center my-5">
+        <div class="container text-center ">
           <div class="row">
             <div class="col ">
-              <img
+              <img className="pt-2"
                 src="https://porkswap.finance/assets/images/features/f1.svg"
                 alt=""
                 width={70}
@@ -52,8 +52,8 @@ function Seen() {
               </p>
             </div>
 
-            <div class="col card1 spotbox">
-              <img
+            <div class="col card1 spotbox ">
+              <img className="pt-2"
                 src="https://porkswap.finance/assets/images/features/f2.svg"
                 alt=""
                 width={70}
@@ -69,7 +69,7 @@ function Seen() {
             </div>
 
             <div class="col">
-              <img
+              <img className="pt-2"
                 src="https://porkswap.finance/assets/images/features/f3.svg"
                 alt=""
                 width={70}
@@ -102,7 +102,7 @@ function Seen() {
               </p>
             </div>
             <div class="col">
-              <img
+              <img className="pt-2"
                 src="https://porkswap.finance/assets/images/features/f4.svg"
                 alt=""
                 width={70}
@@ -116,7 +116,7 @@ function Seen() {
             </div>
 
             <div class="col spotbox">
-              <img
+              <img className="pt-2"
                 src="https://porkswap.finance/assets/images/features/f5.svg"
                 alt=""
                 width={70}
