@@ -2,7 +2,7 @@ import React from "react";
 
 function Seen() {
   return (
-    <div>
+    <div className="backpicseen">
       <div className="font2">
         <b>As seen on</b>
       </div>
@@ -48,7 +48,7 @@ function Seen() {
               </p>
             </div>
 
-            <div class="col card1">
+            <div class="col card1 spotbox">
             <img src="https://porkswap.finance/assets/images/features/f2.svg" alt="" width={70} />
 
               <h5 className="my-3">Community Governance</h5>
@@ -75,10 +75,10 @@ function Seen() {
 
         <div class="container text-center">
           <div class="row">
-            <div class="col">
+            <div class="col spotbox">
             <img src="https://porkswap.finance/assets/images/features/f6.svg" alt="" width={70} />
 
-              <h5 className="my-3">Spot Trading</h5>
+              <h5 className="my-3 ">Spot Trading</h5>
               <p>
                 Improved automated market maker to provide instant fulfillment
                 of orders with less slippage, exchange your favourite tokens
@@ -95,7 +95,7 @@ function Seen() {
               </p>
             </div>
 
-            <div class="col">
+            <div class="col spotbox">
             <img src="https://porkswap.finance/assets/images/features/f5.svg" alt="" width={70} />
 
               <h5 className="my-3">Security</h5>

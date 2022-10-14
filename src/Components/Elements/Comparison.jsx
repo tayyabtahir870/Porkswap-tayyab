@@ -18,13 +18,13 @@ function Comparison() {
           We are building whole ecosystem tools for future identities and data.
         </h4>
       </div>
-      <MDBContainer className="container py-5">
+      <MDBContainer className="container py-5 ">
         <MDBTable
           responsive
           striped
           className=" text-successtable-border border-light"
         >
-          <MDBTableHead className="border-light">
+          <MDBTableHead className="border-light ">
             <tr>
               <th scope="col"></th>
               <th scope="col ">
@@ -53,113 +53,113 @@ function Comparison() {
               </th>
             </tr>
           </MDBTableHead>
-          <MDBTableBody>
-            <tr>
-              <th scope="row">Automated Market Maker </th>
+          <MDBTableBody >
+            <tr >
+              <th className="my-3" scope="row">Automated Market Maker </th>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg  fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Spot Trading</th>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Futures Trading </th>
               <td>
-                <ImCancelCircle fas icon="check" className="text-danger" />
+                <ImCancelCircle fas icon="check" className="text-danger my-3" />
               </td>
               <td>
-                <ImCancelCircle fas icon="times" className="text-danger" />
+                <ImCancelCircle fas icon="times" className="text-danger my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <BsCheckLg fas icon="times" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Governance</th>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <BsCheckLg fas icon="times" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <BsCheckLg fas icon="times" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Leveraged Trading</th>
               <td>
-                <ImCancelCircle fas icon="check" className="text-danger" />
+                <ImCancelCircle fas icon="check" className="text-danger my-3" />
               </td>
               <td>
-                <ImCancelCircle fas icon="times" className="text-danger" />
+                <ImCancelCircle fas icon="times" className="text-danger my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <BsCheckLg fas icon="times" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Gas Fees</th>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Inflationary</th>
               <td>
-                <BsCheckLg fas icon="check" className="text-danger" />
+                <BsCheckLg fas icon="check" className="text-danger my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-danger" />
+                <BsCheckLg fas icon="times" className="text-danger my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <BsCheckLg fas icon="times" className="text-success my-3" />
               </td>
             </tr>
             <tr>
               <th scope="row">Deflationary</th>
               <td>
-                <ImCancelCircle fas icon="check" className="text-danger" />
+                <ImCancelCircle fas icon="check" className="text-danger my-3" />
               </td>
               <td>
-                <ImCancelCircle fas icon="check" className="text-danger" />
+                <ImCancelCircle fas icon="check" className="text-danger my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
             </tr>
             <tr>
-              <th scope="row">Fixed Supply</th>
+              <th  scope="row">Fixed Supply</th>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
-                <ImCancelCircle fas icon="times" className="text-danger" />
+                <ImCancelCircle fas icon="times" className="text-danger my-3" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <BsCheckLg fas icon="times" className="text-success my-3" />
               </td>
             </tr>
           </MDBTableBody>

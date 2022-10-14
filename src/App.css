@@ -23,8 +23,8 @@ border-color: black;
 }
 
 .backpic{
-  background-image: url('https://porkswap.finance/assets/images/bg.png');
-  ;
+ 
+background-color: #00496D;
 }
 
 .color{
@@ -76,18 +76,6 @@ border-color: black;
   
   height: 25.75rem;
 }
-/* .token-pic::before{
- 
-  content: "";
-  background-image: url('https://porkswap.finance/assets/images/bgs/token-hover.png');
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: contain;
-  max-width: 80.125rem;
-  background-position: 60%;
-  height: 100%;
-  width: 100%;
-} */
 
 .liqidity{
   position: absolute;
@@ -116,6 +104,15 @@ border-color: black;
   right: 0%;
   top: 185px;
   width: 6rem;
+}
+.backpicseen{
+  background-image: url('https://porkswap.finance/assets/images/bgs/Section-31.png')
+
+}
+.spotbox{
+  box-shadow: 0 8px 40px 0 rgba(0,0,0,10%)!important;
+  border-radius: 3px;
+  background: #fff;
 }
 
 
