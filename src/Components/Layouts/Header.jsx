@@ -1,11 +1,6 @@
 import React from "react";
 
-
 function Header() {
-
-
-  
-
   return (
     <div>
       <div className="header  ">
@@ -36,38 +31,63 @@ function Header() {
                   <li class="nav-item"></li>
                   <li class="nav-item">
                     <a class="nav-link" href="/">
-                      <b className="navfontcolor
-                      "> Features</b>
+                      <b
+                        className="navfontcolor
+                      "
+                      >
+                        {" "}
+                        Features
+                      </b>
                     </a>
                   </li>{" "}
                   <li class="nav-item">
                     <a class="nav-link" href="/">
-                      <b className="navfontcolor
-                      ">Litepaper</b>
+                      <b
+                        className="navfontcolor
+                      "
+                      >
+                        Litepaper
+                      </b>
                     </a>
                   </li>{" "}
                   <li class="nav-item">
                     <a class="nav-link" href="/">
-                      <b className="navfontcolor
-                      ">Platform</b>
+                      <b
+                        className="navfontcolor
+                      "
+                      >
+                        Platform
+                      </b>
                     </a>
                   </li>{" "}
                   <li class="nav-item">
                     <a class="nav-link" href="/">
-                      <b className="navfontcolor
-                      ">Roadmap</b>
+                      <b
+                        className="navfontcolor
+                      "
+                      >
+                        Roadmap
+                      </b>
                     </a>
                   </li>{" "}
                   <li class="nav-item">
                     <a class="nav-link" href="/">
-                      <b className="navfontcolor
-                      ">FAQs</b>
+                      <b
+                        className="navfontcolor
+                      "
+                      >
+                        FAQs
+                      </b>
                     </a>
                   </li>{" "}
                   <li class="nav-item">
                     <a class="nav-link" href="/">
-                      <b className="navfontcolor
-                      ">Audit Report</b>
+                      <b
+                        className="navfontcolor
+                      "
+                      >
+                        Audit Report
+                      </b>
                     </a>
                   </li>{" "}
                 </ul>

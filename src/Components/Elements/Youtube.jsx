@@ -3,9 +3,9 @@ import React from 'react'
 function Youtube() {
   return (
     <div className='picy'>
-    <div className='text-center my-5'>
-           <h1> <b> How It</b>  <b className='fontcolor'> Works</b> </h1>
-    <div className='container'>
+    <div className='text-center '>
+           <h1> <b> How It</b>  <b className='fontcolor '> Works</b> </h1>
+    <div className='container my-5'>
         <iframe
       width="100%"
       height="480"

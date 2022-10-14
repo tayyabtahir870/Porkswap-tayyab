@@ -38,7 +38,11 @@ function Seen() {
         <div class="container text-center my-5">
           <div class="row">
             <div class="col ">
-                <img src="https://porkswap.finance/assets/images/features/f1.svg" alt="" width={70} />
+              <img
+                src="https://porkswap.finance/assets/images/features/f1.svg"
+                alt=""
+                width={70}
+              />
               <h5 className="my-3">Deflationary</h5>
               <p>
                 While other spot platform tokens mint 750,000 tokens per day,
@@ -49,7 +53,11 @@ function Seen() {
             </div>
 
             <div class="col card1 spotbox">
-            <img src="https://porkswap.finance/assets/images/features/f2.svg" alt="" width={70} />
+              <img
+                src="https://porkswap.finance/assets/images/features/f2.svg"
+                alt=""
+                width={70}
+              />
 
               <h5 className="my-3">Community Governance</h5>
               <p>
@@ -61,7 +69,11 @@ function Seen() {
             </div>
 
             <div class="col">
-                <img src="https://porkswap.finance/assets/images/features/f3.svg" alt="" width={70} />
+              <img
+                src="https://porkswap.finance/assets/images/features/f3.svg"
+                alt=""
+                width={70}
+              />
               <h5 className="my-3">Future Trading</h5>
               <p>
                 Bringing forward the true meaning of De-Fi that's decentralizing
@@ -76,7 +88,11 @@ function Seen() {
         <div class="container text-center">
           <div class="row">
             <div class="col spotbox">
-            <img src="https://porkswap.finance/assets/images/features/f6.svg" alt="" width={70} />
+              <img
+                src="https://porkswap.finance/assets/images/features/f6.svg"
+                alt=""
+                width={70}
+              />
 
               <h5 className="my-3 ">Spot Trading</h5>
               <p>
@@ -86,7 +102,11 @@ function Seen() {
               </p>
             </div>
             <div class="col">
-            <img src="https://porkswap.finance/assets/images/features/f4.svg" alt="" width={70} />
+              <img
+                src="https://porkswap.finance/assets/images/features/f4.svg"
+                alt=""
+                width={70}
+              />
 
               <h5 className="my-3">Lottery</h5>
               <p>
@@ -96,7 +116,11 @@ function Seen() {
             </div>
 
             <div class="col spotbox">
-            <img src="https://porkswap.finance/assets/images/features/f5.svg" alt="" width={70} />
+              <img
+                src="https://porkswap.finance/assets/images/features/f5.svg"
+                alt=""
+                width={70}
+              />
 
               <h5 className="my-3">Security</h5>
               <p>
@@ -108,13 +132,32 @@ function Seen() {
           </div>
         </div>
       </div>
-          <div className="text-center my-5">
-            <img src="https://porkswap.finance/assets/images/featured/cmc-logo.png" alt="" width={200} />   &nbsp; &nbsp; &nbsp; &nbsp;
-            <img src="https://porkswap.finance/assets/images/featured/cg-logo.webp" alt="" width={200}/>   &nbsp; &nbsp; &nbsp; &nbsp;
-            <img src="https://porkswap.finance/assets/images/featured/hb-logo.png" alt="" width={150}/>   &nbsp; &nbsp; &nbsp; &nbsp; 
-            <img src="https://porkswap.finance/assets/images/featured/cb-logo.png" alt="" width={150} />   &nbsp; &nbsp; &nbsp; &nbsp;
-          </div> 
-
+      <div className="text-center my-5">
+        <img
+          src="https://porkswap.finance/assets/images/featured/cmc-logo.png"
+          alt=""
+          width={200}
+        />{" "}
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <img
+          src="https://porkswap.finance/assets/images/featured/cg-logo.webp"
+          alt=""
+          width={200}
+        />{" "}
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <img
+          src="https://porkswap.finance/assets/images/featured/hb-logo.png"
+          alt=""
+          width={150}
+        />{" "}
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <img
+          src="https://porkswap.finance/assets/images/featured/cb-logo.png"
+          alt=""
+          width={150}
+        />{" "}
+        &nbsp; &nbsp; &nbsp; &nbsp;
+      </div>
     </div>
   );
 }

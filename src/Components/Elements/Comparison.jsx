@@ -53,11 +53,13 @@ function Comparison() {
               </th>
             </tr>
           </MDBTableHead>
-          <MDBTableBody >
-            <tr >
-              <th className="my-3" scope="row">Automated Market Maker </th>
+          <MDBTableBody>
+            <tr>
+              <th className="my-3" scope="row">
+                Automated Market Maker{" "}
+              </th>
               <td>
-                <BsCheckLg  fas icon="check" className="text-success my-3" />
+                <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
               <td>
                 <BsCheckLg fas icon="check" className="text-success my-3" />
@@ -151,7 +153,7 @@ function Comparison() {
               </td>
             </tr>
             <tr>
-              <th  scope="row">Fixed Supply</th>
+              <th scope="row">Fixed Supply</th>
               <td>
                 <BsCheckLg fas icon="check" className="text-success my-3" />
               </td>
